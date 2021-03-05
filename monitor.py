@@ -9,7 +9,7 @@ import socket
 import select
 
 # change the working directory to the scripts folder
-os.chdir("home/pi/kts/scripts")
+os.chdir("/home/pi/kts/scripts")
 
 # log and begin instrument scripts
 log = open('log', 'w')
